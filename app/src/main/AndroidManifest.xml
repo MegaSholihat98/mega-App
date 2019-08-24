@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="id.mega.coding">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/mas"
+        android:label="Mega App"
+        android:roundIcon="@mipmap/mas"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="id.mega.coding.produkok"></activity>
+        <activity android:name="id.mega.coding.DataDoa" />
+        <activity android:name="id.mega.coding.Doa_harian" />
+        <activity android:name="id.mega.coding.SholatApp" />
+        <activity android:name="id.mega.coding.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
